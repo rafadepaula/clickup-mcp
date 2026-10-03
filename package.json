@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "type": "module",
   "bin": {
-    "clickup-mcp": "./dist/index.js",
-    "clickup2": "./dist/index.js"
+    "clickup-mcp": "dist/index.js",
+    "clickup2": "dist/index.js"
   },
   "repository": {
     "type": "git",
