@@ -21,10 +21,13 @@ Este servidor conecta-se **diretamente à API REST oficial do ClickUp** (v2 e v3
 Você pode executar o servidor diretamente via `npx` sem precisar clonar o repositório manualmente:
 
 ```bash
-# Diretamente via repositório GitHub do usuário
+# Comando direto (shorthand do GitHub):
+npx rafadepaula/clickup-mcp
+
+# Ou especificando explicitamente github:
 npx github:rafadepaula/clickup-mcp
 
-# Ou via pacote npm (quando publicado)
+# Ou via pacote npm (quando publicado no registry):
 npx @rafadepaula/clickup-mcp
 ```
 
