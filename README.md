@@ -2,6 +2,7 @@
 
 Servidor **Model Context Protocol (MCP)** completo para o ClickUp em Node.js / TypeScript com suporte a **todas as 61 ferramentas oficiais**, utilizando conexão direta à API REST do ClickUp com limites de requisição altos.
 
+[![npm version](https://img.shields.io/npm/v/@rafadepaula/clickup-mcp.svg)](https://www.npmjs.com/package/@rafadepaula/clickup-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-rafadepaula%2Fclickup--mcp-black)](https://github.com/rafadepaula/clickup-mcp)
 
@@ -18,17 +19,14 @@ Este servidor conecta-se **diretamente à API REST oficial do ClickUp** (v2 e v3
 
 ## 🚀 Como Usar com `npx`
 
-Você pode executar o servidor diretamente via `npx` sem precisar clonar o repositório manualmente:
+Você pode executar o servidor diretamente via `npx` em um único comando:
 
 ```bash
-# Comando direto (shorthand do GitHub):
-npx rafadepaula/clickup-mcp
-
-# Ou especificando explicitamente github:
-npx github:rafadepaula/clickup-mcp
-
-# Ou via pacote npm (quando publicado no registry):
+# Execução direta via npm:
 npx @rafadepaula/clickup-mcp
+
+# Ou diretamente via GitHub:
+npx rafadepaula/clickup-mcp
 ```
 
 ### Configuração no seu cliente MCP (Claude Desktop, Cursor, Antigravity, etc.)
@@ -42,7 +40,7 @@ Adicione ao seu arquivo de configuração MCP (`claude_desktop_config.json`, `mc
       "command": "npx",
       "args": [
         "-y",
-        "github:rafadepaula/clickup-mcp"
+        "@rafadepaula/clickup-mcp"
       ],
       "env": {
         "CLICKUP_API_TOKEN": "pk_seu_token_aqui"
